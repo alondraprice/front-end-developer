@@ -99,3 +99,19 @@ p {
   color: white;
 }
 
+@media (min-width: 1400px) .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+  max-width: 1320px;
+}
+@media (min-width: 576px) .col-sm-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+@media (min-width: 992px) .navbar-expand-lg {
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}

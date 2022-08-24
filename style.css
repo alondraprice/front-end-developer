@@ -98,26 +98,25 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
-.primary-link:hover{
-  color:white;
+.primary-link:hover {
+  color: white;
 }
 
-@media (max-width:900px){
-  h1{
+@media (max-width: 900px) {
+  h1 {
     font-size: 48px;
     line-height: 1.5;
   }
-  h2{
+  h2 {
     font-size: 32px;
     text-align: center;
   }
-  p{
+  p {
     text-align: center;
   }
-  .project-link{
-    display:block;
+  .project-link {
+    display: block;
     text-align: center;
     margin: 0 20px;
   }
 }
-
